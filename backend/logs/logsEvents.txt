@@ -1,0 +1,43 @@
+
+::1	21/08/2023-08:46:02	GET	/	OK	200 
+::1	21/08/2023-08:46:02	GET	/style.css	OK	200 
+::1	21/08/2023-08:46:02	GET	/dist/main.js	OK	200 
+::1	21/08/2023-08:46:03	GET	/favicon.ico	OK	200 
+::1	21/08/2023-08:46:03	GET	/api/orders/selling-products	OK	200 
+::1	21/08/2023-08:46:03	GET	/api/products?	OK	200 
+::1	21/08/2023-08:46:05	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:05	GET	/api/orders/	OK	200 
+::1	21/08/2023-08:46:11	GET	/style.css	Not Modified	304 
+::1	21/08/2023-08:46:18	GET	/uploads/1690530987031.jpg	OK	200 
+::1	21/08/2023-08:46:18	GET	/favicon.ico	OK	200 
+::1	21/08/2023-08:46:22	GET	/api/users/logout	Bad Request	400 
+::1	21/08/2023-08:46:22	GET	/favicon.ico	OK	200 
+::1	21/08/2023-08:46:22	GET	/api/orders/selling-products	OK	200 
+::1	21/08/2023-08:46:22	GET	/api/products?	OK	200 
+::1	21/08/2023-08:46:25	GET	/favicon.ico	OK	200 
+::1	21/08/2023-08:46:27	GET	/favicon.ico	OK	200 
+::1	21/08/2023-08:46:39	POST	/api/users/register	OK	200 
+::1	21/08/2023-08:46:39	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:40	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:42	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:46	POST	/api/users/login	OK	200 
+::1	21/08/2023-08:46:46	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:46	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:46	GET	/api/products?	Not Modified	304 
+::1	21/08/2023-08:46:47	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:47	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:47	GET	/api/products?searchKeyword=coffee&	OK	200 
+::1	21/08/2023-08:46:47	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:47	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:47	GET	/api/products?searchKeyword=tra&	OK	200 
+::1	21/08/2023-08:46:48	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/api/products?searchKeyword=freeze&	OK	200 
+::1	21/08/2023-08:46:48	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/api/products?searchKeyword=banh&	OK	200 
+::1	21/08/2023-08:46:48	GET	/api/orders/selling-products	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/favicon.ico	Not Modified	304 
+::1	21/08/2023-08:46:48	GET	/api/products?	Not Modified	304 
+::1	21/08/2023-09:07:23	POST	/api/users/forgot-password	Internal Server Error	500 
+::1	21/08/2023-09:16:22	POST	/api/users/forgot-password	OK	200 
