@@ -14,13 +14,17 @@ import uploadImgProduct from './routers/uploadImage.js';
 import uploadImgUser from './routers/uploadUser.js';
 
 mongoose.set('strictQuery', true);
-mongoose.connect(config.MONGO_URL)
-    .then(() => {
-        console.log("Database connect successully!");
-    })
-    .catch((err) => {
-        console.log(err);
-    }) 
+mongoose
+  .connect(config.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log('Database connect successully!');
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 const app = express();
 const PORT = 5000;
@@ -30,14 +34,14 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
-app.use(function(req, res, next) {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Credentials", "true");
-    res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET,HEAD,OPTIONS,POST,PUT,DELETE"
-    );
-    next();
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET,HEAD,OPTIONS,POST,PUT,DELETE'
+  );
+  next();
 });
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -54,10 +58,10 @@ app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
 
 app.use((err, req, res, next) => {
-    const statusCode = err.statusCode || 500;
-    const message = err.message || 'Internal Server Error';
+  const statusCode = err.statusCode || 500;
+  const message = err.message || 'Internal Server Error';
 
-    res.status(statusCode).json({ message });
+  res.status(statusCode).json({ message });
 });
 
 app.use('/uploads', express.static(path.join(__dirname, './../uploads')));
@@ -65,9 +69,9 @@ app.use('/uploads', express.static(path.join(__dirname, './../uploads')));
 app.use(express.static(path.join(__dirname, './../frontend')));
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './../frontend/index.html'));
+  res.sendFile(path.join(__dirname, './../frontend/index.html'));
 });
 
 app.listen(PORT, () => {
-    console.log(`Server at http://localhost:${PORT}`);
-})
+  console.log(`Server at http://localhost:${PORT}`);
+});

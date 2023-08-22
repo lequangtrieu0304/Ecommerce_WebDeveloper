@@ -1,5 +1,5 @@
 import User from '../models/userModel.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import CustomError from '../Errors/index.js';
 import jwt from 'jsonwebtoken';
 
@@ -151,7 +151,6 @@ const handleUpdate = async (req, res, next) => {
 const forgotPassword = async (req, res, next) => {
   const { email } = req.body;
   try {
-    debugger;
     const user = await User.findOne({ email });
     if (!user) throw new Error('User not found.');
     const token = jwt.sign(
@@ -173,12 +172,10 @@ const forgotPassword = async (req, res, next) => {
         }),
       3000
     );
-    return res
-      .status(200)
-      .json({
-        message:
-          'Mã xác nhận sẽ được gửi vào Email của bạn. Vui lòng kiểm tra email.',
-      });
+    return res.status(200).json({
+      message:
+        'Mã xác nhận sẽ được gửi vào Email của bạn. Vui lòng kiểm tra email.',
+    });
   } catch (error) {
     next(error);
   }
