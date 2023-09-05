@@ -66,10 +66,10 @@ app.use((err, req, res, next) => {
 
 app.use('/uploads', express.static(path.join(__dirname, './../uploads')));
 
-app.use(express.static(path.join(__dirname, './../frontend')));
+app.use(express.static(path.join(__dirname, './../../frontend')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, './../frontend/index.html'));
+  res.sendFile(path.join(__dirname, './../../frontend/index.html'));
 });
 
 app.listen(PORT, () => {

@@ -154,7 +154,7 @@ const forgotPassword = async (req, res, next) => {
     const user = await User.findOne({ email });
     if (!user) throw new Error('User not found.');
     const token = jwt.sign(
-      { userId: user.id },
+      { userId: user._id },
       process.env.RESET_PASSWORD_SECRET,
       {
         expiresIn: '5m',
@@ -181,7 +181,20 @@ const forgotPassword = async (req, res, next) => {
   }
 };
 
-const resetPassword = (req, res, next) => {};
+const resetPassword = async (req, res, next) => {
+  try {
+    const { token, password } = req.body;
+    const { userId } = jwt.verify(token, process.env.RESET_PASSWORD_SECRET);
+    const user = await User.findOne({ _id: userId });
+    if (!user) throw new Error('Người dùng chưa được xác minh.');
+    const hashPwd = await bcrypt.hash(password, 10);
+    user.password = hashPwd;
+    await user.save();
+    return res.status(200).json({ message: 'Đổi mật khấu thành công.' });
+  } catch (e) {
+    next(e);
+  }
+};
 
 export default {
   createdAdminAccount,

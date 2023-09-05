@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-EXPOSE 5000
+EXPOSE 3000
 
 RUN npm i npm@latest -g
 
@@ -12,4 +12,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "build"]

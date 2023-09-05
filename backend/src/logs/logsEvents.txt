@@ -41,3 +41,94 @@
 ::1	21/08/2023-08:46:48	GET	/api/products?	Not Modified	304 
 ::1	21/08/2023-09:07:23	POST	/api/users/forgot-password	Internal Server Error	500 
 ::1	21/08/2023-09:16:22	POST	/api/users/forgot-password	OK	200 
+::1	05/09/2023-22:49:38	GET	/	Not Found	404 
+::1	05/09/2023-22:51:57	GET	/	Not Found	404 
+::1	05/09/2023-22:52:29	GET	/	Not Found	404 
+::1	05/09/2023-22:54:44	GET	/	Not Found	404 
+::1	05/09/2023-22:55:08	GET	/	Not Found	404 
+::1	05/09/2023-22:55:09	GET	/	Not Found	404 
+::1	05/09/2023-22:55:09	GET	/	Not Found	404 
+::1	05/09/2023-22:55:10	GET	/	Not Found	404 
+::1	05/09/2023-22:55:10	GET	/	Not Found	404 
+::1	05/09/2023-22:56:51	GET	/	Not Found	404 
+::1	05/09/2023-23:01:14	GET	/	Not Found	404 
+::1	05/09/2023-23:02:03	GET	/	Not Found	404 
+::1	05/09/2023-23:05:56	GET	/	Not Found	404 
+::1	05/09/2023-23:06:02	GET	/	Not Found	404 
+::1	05/09/2023-23:07:12	GET	/	Not Found	404 
+::1	05/09/2023-23:07:21	GET	/	Not Found	404 
+::1	05/09/2023-23:07:23	GET	/	Not Found	404 
+::1	05/09/2023-23:09:30	GET	/	OK	200 
+::1	05/09/2023-23:09:30	GET	/style.css	OK	200 
+::1	05/09/2023-23:09:30	GET	/dist/main.js	OK	200 
+::1	05/09/2023-23:09:30	GET	/favicon.ico	OK	200 
+::1	05/09/2023-23:09:34	GET	/	Not Modified	304 
+::1	05/09/2023-23:09:34	GET	/style.css	Not Modified	304 
+::1	05/09/2023-23:09:34	GET	/dist/main.js	Not Modified	304 
+::1	05/09/2023-23:09:34	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:52	GET	/	Not Modified	304 
+::1	05/09/2023-23:09:52	GET	/style.css	OK	200 
+::1	05/09/2023-23:09:52	GET	/dist/main.js	OK	200 
+::1	05/09/2023-23:09:52	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:52	GET	/api/orders/selling-products	OK	200 
+::1	05/09/2023-23:09:52	GET	/api/products?	OK	200 
+::1	05/09/2023-23:09:54	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:54	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:09:54	GET	/api/products?searchKeyword=coffee&	OK	200 
+::1	05/09/2023-23:09:54	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:54	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:09:54	GET	/api/products?searchKeyword=tra&	OK	200 
+::1	05/09/2023-23:09:55	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:55	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:09:55	GET	/api/products?searchKeyword=banh&	OK	200 
+::1	05/09/2023-23:09:56	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:56	GET	/images/270_crop_BANHCHUOI.jpg	OK	200 
+::1	05/09/2023-23:09:57	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:09:57	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:09:57	GET	/api/products?	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/api/products?searchKeyword=tra&	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:10:47	GET	/api/products?searchKeyword=freeze&	OK	200 
+::1	05/09/2023-23:10:48	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:10:48	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:10:48	GET	/api/products?searchKeyword=banh&	Not Modified	304 
+::1	05/09/2023-23:32:18	GET	/	OK	200 
+::1	05/09/2023-23:32:18	GET	/style.css	Not Modified	304 
+::1	05/09/2023-23:32:18	GET	/dist/main.js	Not Modified	304 
+::1	05/09/2023-23:32:18	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:32:21	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:32:21	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:32:22	GET	/images/270_crop_BANHCHUOI.jpg	Not Modified	304 
+::1	05/09/2023-23:32:22	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:36:19	GET	/	Not Modified	304 
+::1	05/09/2023-23:36:19	GET	/style.css	Not Modified	304 
+::1	05/09/2023-23:36:19	GET	/dist/main.js	Not Modified	304 
+::1	05/09/2023-23:36:21	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:36:24	GET	/style.css	Not Modified	304 
+::1	05/09/2023-23:36:30	GET	/	OK	200 
+::1	05/09/2023-23:36:30	GET	/style.css	OK	200 
+::1	05/09/2023-23:36:30	GET	/dist/main.js	OK	200 
+::1	05/09/2023-23:36:30	GET	/favicon.ico	OK	200 
+::1	05/09/2023-23:36:32	GET	/favicon.ico	OK	200 
+::1	05/09/2023-23:36:33	GET	/favicon.ico	OK	200 
+::1	05/09/2023-23:36:53	POST	/api/users/register	Internal Server Error	500 
+::1	05/09/2023-23:37:00	POST	/api/users/register	Internal Server Error	500 
+::1	05/09/2023-23:43:09	GET	/	Not Modified	304 
+::1	05/09/2023-23:43:10	GET	/dist/main.js	Not Modified	304 
+::1	05/09/2023-23:43:10	GET	/style.css	Not Modified	304 
+::1	05/09/2023-23:43:10	GET	/api/orders/selling-products	OK	200 
+::1	05/09/2023-23:43:10	GET	/api/products?	Not Modified	304 
+::1	05/09/2023-23:43:10	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:12	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:13	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:20	POST	/api/users/register	OK	200 
+::1	05/09/2023-23:43:20	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:22	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:27	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:30	POST	/api/users/login	OK	200 
+::1	05/09/2023-23:43:30	GET	/favicon.ico	Not Modified	304 
+::1	05/09/2023-23:43:30	GET	/api/orders/selling-products	Not Modified	304 
+::1	05/09/2023-23:43:30	GET	/api/products?	Not Modified	304 

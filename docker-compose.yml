@@ -1,19 +1,27 @@
 version: '3'
 services:
-  apps:
-    container_name: quangtrieu_shop
-    build:
-      dockerfile: Dockerfile
-      context: ./backend/
-    restart: always
-    depends_on:
-      - mongo_db
-    environment:
-      MONGODB_URL: mongodb://mongo_db/coffee_app
-    ports:
-      - 5000:5000
-    volumes:
-      - mongo_data:/data/db
+  # backend:
+  #   container_name: be_shop
+  #   build:
+  #     dockerfile: Dockerfile
+  #     context: ./backend/
+  #   restart: always
+  #   depends_on:
+  #     - mongo_db
+  #   environment:
+  #     MONGODB_URL: mongodb://mongo_db/coffee_app
+  #   ports:
+  #     - 5000:5000
+  #   volumes:
+  #     - mongo_data:/data/db
+
+  # frontend:
+  #   container_name: fe_shop
+  #   build:
+  #     dockerfile: Dockerfile
+  #     context: ./frontend/
+  #   ports:
+  #     - 3000:3000
 
   mongo_db:
    container_name: mongo_db
@@ -22,5 +30,5 @@ services:
    ports:
     - '27017:27017'
     
-volumes:
-  mongo_data:
+# volumes:
+#   mongo_data:
